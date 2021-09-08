@@ -17,6 +17,9 @@ class do_sql():
         self.id=2
     def get_token(self):
         sql='select token from user where id={}'.format(self.id)
-        tok=self.conn.find_all()
+        tok=self.conn.find_all(sql)
         res=list(chain.from_iterable(tok))
         return res
+
+    def get_xxx(self):
+        pass
