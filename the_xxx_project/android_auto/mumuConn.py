@@ -30,9 +30,9 @@ d.save_screenshot(pathname+"/homePage.png")
 d.find_element_by_name("我的").click()
 time.sleep(10)
 
-d.find_element_by_id("com.xykj.mall:id/et_fragment_login_register_account_login_phone").send_keys("15216925972")
+d.find_element_by_id("com.xykj.mall:id/et_fragment_login_register_account_login_phone").send_keys("XXXXXXXXXXXX")
 time.sleep(2)
-d.find_element_by_id("com.xykj.mall:id/et_fragment_login_register_account_login_phone_password").send_keys("123456a")
+d.find_element_by_id("com.xykj.mall:id/et_fragment_login_register_account_login_phone_password").send_keys("123456")
 time.sleep(2)
 d.save_screenshot(pathname+"/accountPwd.png")
 
