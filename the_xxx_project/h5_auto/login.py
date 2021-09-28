@@ -29,11 +29,11 @@ time.sleep(2)
 
 driver.get_screenshot_as_file(pathname+'/loginPage.png')
 
-driver.find_element_by_xpath('/html/body/div/div[1]/div/div[2]/div[2]/form/div[1]/div/input').send_keys('15216925972')
+driver.find_element_by_xpath('/html/body/div/div[1]/div/div[2]/div[2]/form/div[1]/div/input').send_keys('XXXXXXX')
 time.sleep(2)
 
 
-driver.find_element_by_xpath('/html/body/div/div[1]/div/div[2]/div[2]/form/div[2]/div/input').send_keys('123456a')
+driver.find_element_by_xpath('/html/body/div/div[1]/div/div[2]/div[2]/form/div[2]/div/input').send_keys('123456')
 time.sleep(2)
 
 driver.get_screenshot_as_file(pathname+'/AccountPasswordLogin.png')
